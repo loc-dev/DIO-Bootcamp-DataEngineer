@@ -1,0 +1,18 @@
+    1 cd ~/Documentos/
+    2 mkdir Ubuntu
+    3 ls
+    4  mv Ubuntu ~/
+    5  cd ~/
+    6  ls
+    7  cd Ubuntu
+    8  touch teste.txt
+    9  ls
+   10  mv teste.txt linux.tx
+   11  cp linux.txt ../Downloads/
+   12  history
+   13  ls --help
+   14  man mv
+   15  rm -r Ubuntu
+   16  ls
+   17  clear
+   18  exit
