@@ -1,0 +1,20 @@
+Exercícios Práticos de Revisão
+
+1) Exiba todos os hardware que existem na máquina com paginação
+2) Salve a saída do comando anterior no arquivo minhamaquina.txt
+3) Exiba informações sobre a memória física e virtual na sua maquina
+4) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+5) Exiba todas as placas PCI Conectadas
+6) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+7) Exiba todos os dispositivos USB Conectados
+8) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+9) Exiba as informações sobre processador
+10) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+11) Exiba o nome do Kernel
+12) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+13) Exiba a versão do Kernel
+14) Adicione a saída do comando anterior ao arquivo minhamaquina.txt
+15) Exiba a arquitetura do Kernel
+16) Reinicie a máquina
+17) Abra o arquivo minhamaquina.txt
+18) Desligue a maquina
