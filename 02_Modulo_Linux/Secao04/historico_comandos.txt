@@ -1,0 +1,25 @@
+    1  lshw | more
+    2  echo -e "---- Configuração de Hardware ----\n" > minhamaquina.txt
+    3  lshw >> minhamaquina.txt
+    4  free
+    5  echo -e "\n---- Informação sobre Memória ----\n" >> minhamaquina.txt
+    6  free >> minhamaquina.txt
+    7  lspci
+    8  echo -e "\n---- Informação sobre Placas PCI ----\n" >> minhamaquina.txt
+    9  lspci >> minhamaquina.txt
+   10  lsusb
+   11  echo -e "\n---- Informação sobre Dispositivos USB ----\n" >> minhamaquina.txt
+   12  lsusb >> minhamaquina.txt
+   13  lscpu
+   14  echo -e "\n---- Informação sobre Processador ----\n" >> minhamaquina.txt
+   15  lscpu >> minhamaquina.txt
+   16  uname
+   17  echo -e "\n---- Informação sobre o Kernel ----\n" >> minhamaquina.txt
+   18  echo "Nome do Kernel: " >> minhamaquina.txt
+   19  uname >> minhamaquina.txt
+   20  echo "Versão do Kernel: " >> minhamaquina.txt
+   21  uname -r >> minhamaquina.txt
+   22  echo "Arquitetura do Kernel: " >> minhamaquina.txt
+   23  uname -m >> minhamaquina.txt
+   24  cat minhamaquina.txt
+   25  history > historico_comandos.txt
