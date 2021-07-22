@@ -1,0 +1,18 @@
+    1  mkdir Exercícios && cd Exercícios
+    2  touch lista_nomes.txt
+    3  nano lista_nomes.txt
+    4  head lista_nomes.txt
+    5  tail lista_nomes.txt
+    6  grep Leonardo lista_nomes.txt
+    7  cal sep 2021 > setembro.txt
+    8  cat setembro.txt
+    9  echo -e "\n----Calendário do mês de Setembro de 2021----\n" >> lista_nomes.txt
+   10  cat setembro.txt >> lista_nomes.txt
+   11  cat lista_nomes.txt | more
+   12  find ~/ -name setembro.txt
+   13  file lista_nomes.txt
+   14  whatis ls
+   15  mv lista_nomes.txt arquivo.txt
+   16  ls
+   17  clear
+   18  history > historico_comandos.txt
